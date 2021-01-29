@@ -1,4 +1,4 @@
-##
+#
 # Total a collection of numbers entered by the user. The user will enter a blank line to
 # indicate that no further numbers will be entered and the total should be displayed.
 #
