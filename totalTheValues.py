@@ -15,12 +15,14 @@ def readAndTotal():
         # subsequent lines
         return float(line) + readAndTotal()
 
+
 # Read a collection of numbers from the user and display the total
 def main():
     # Read the values from the user and compute the total
     total = readAndTotal()
     # Display the total
     print("The total of all those values is", total)
+
 
 # Call the main function
 main()
