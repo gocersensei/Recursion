@@ -6,6 +6,10 @@
 # @param s the first string
 # @param t the second string
 # @return the edit distance between the strings
+from functools import lru_cache
+
+
+@lru_cache(maxsize=None)
 def editDistance(s, t):
     # If one string is empty, then the edit distance is one insert operation for each letter in the
     # other string
