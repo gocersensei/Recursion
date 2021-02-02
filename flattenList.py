@@ -28,5 +28,5 @@ def main():
     print(flatten([]))
 
 
-# Call the main function
+# Call the main function.
 main()
